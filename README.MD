@@ -23,5 +23,5 @@ This tool simplifies the process of using Windows SDK's `signtool.exe` and Power
 To compile the project using **MinGW-w64 (g++)**, run the following command in your terminal:
 
 ```powershell
-g++ -o CertificateTool.exe main.cpp -std=c++11 -mwindows -lcomctl32 -lgdi32 -lcomdlg32
+g++ main.cpp -o CertificateTool.exe -std=c++17
 ```
